@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "version": "0.1.0",
-  "homepage": "https://youssef1233321.github.io/eCommerceReact",
+  "homepage": "https://youssef1233321.github.io/",
   "private": true,
   "dependencies": {
     "@custom-react-hooks/all": "^1.4.19",
