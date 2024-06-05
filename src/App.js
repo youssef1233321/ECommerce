@@ -31,6 +31,7 @@ import { OrdersContextProvider } from "./Context/Orders";
 import ChangePassword from "./Components/ChangePassword/ChangePassword";
 import { AuthenticationContextProvider } from "./Context/Authentication";
 import ForgotPassword from "./Components/ForgotPassword/ForgotPassword";
+import ECommerce from "./Components/ECommerce/ECommerce";
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -74,6 +75,14 @@ function App() {
           element: (
             <ProtectedRoute>
               <Products />
+            </ProtectedRoute>
+          ),
+        },
+        {
+          path: "ECommerce",
+          element: (
+            <ProtectedRoute>
+              <ECommerce />
             </ProtectedRoute>
           ),
         },
